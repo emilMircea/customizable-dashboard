@@ -3,7 +3,7 @@ const links = Array.from(document.querySelectorAll('nav > .link > button'));
 const svgs = Array.from(document.querySelectorAll('.icon'));
 const fontSize = document.getElementById('fontSizeInput')
 // endpoint for ajax data coming from API
-const endpoint = 'http://api.coindesk.com/v1/bpi/currentprice.json';
+const endpoint = 'https://api.coindesk.com/v1/bpi/currentprice.json';
 const currencies = [];
 const dataObj = fetch(endpoint)
   .then(blob => blob.json())
