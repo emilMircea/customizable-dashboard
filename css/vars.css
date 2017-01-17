@@ -1,0 +1,38 @@
+:root {
+      --firstColor: #daffda;
+      --secondColor: lemonchiffon;
+      --thirdColor: #fff;
+      --linkColor: white;
+      --fontSize: 35px;
+      --fontFamily: "sans-serif";
+    }
+
+#first_color, #second_color, #third_color {
+    border: 1px solid white;
+}
+
+#first_color {
+    background: var(--firstColor);
+
+}
+
+#first_color:hover, #second_color:hover, #third_color:hover {
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+#second_color {
+    background: var(--secondColor);
+}
+#third_color {
+    background: var(--thirdColor);
+}
+
+.link > a {
+    color: var(--linkColor);
+}
+
+.title {
+    font-size: var(--fontSize);
+    font-family: var(--fontfamily);
+}
