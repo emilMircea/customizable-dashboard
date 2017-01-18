@@ -1,0 +1,47 @@
+#data {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%; }
+
+.demo-card-event.mdl-card {
+  flex: 0.2 0.2 20%;
+  height: 350px;
+  background: #0575E6;
+  background: -webkit-linear-gradient(to left, #0575E6, #021B79);
+  background: linear-gradient(to left, #0575E6, #021B79); }
+
+.demo-card-event > .mdl-card__actions {
+  border-color: rgba(255, 255, 255, 0.2); }
+
+.demo-card-event > .mdl-card__title,
+.demo-card-event > .mdl-card__actions,
+.demo-card-event > .mdl-card__actions > .mdl-button {
+  color: #fff; }
+
+.mdl-card__actions.mdl-card--border {
+  background: #011356; }
+
+#graph-1 {
+  background-image: url("../img/today-bitcoin-euro.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+#graph-2 {
+  background-image: url("../img/today-bitcoin-dollar.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+#graph-3 {
+  background-image: url("../img/today-bitcoin-pound.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.mdl-card--border {
+  display: flex;
+  justify-content: center; }
+
+/*# sourceMappingURL=cards-style.css.map */

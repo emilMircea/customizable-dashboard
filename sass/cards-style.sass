@@ -1,0 +1,37 @@
+=bg($url)
+  background-image: url($url)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: contain
+#data
+  display: flex
+  justify-content: space-around
+  align-items: center
+  height: 100%
+.demo-card-event.mdl-card
+  flex: .2 .2 20%
+  height: 350px
+  background: #0575E6
+  background: -webkit-linear-gradient(to left, #0575E6 , #021B79)
+  background: linear-gradient(to left, #0575E6 , #021B79)
+
+.demo-card-event > .mdl-card__actions
+  border-color: rgba(255, 255, 255, 0.2)
+
+.demo-card-event > .mdl-card__title,
+.demo-card-event > .mdl-card__actions,
+.demo-card-event > .mdl-card__actions > .mdl-button
+  color: #fff
+
+.mdl-card__actions.mdl-card--border
+  background: darken(#021B79, 7%)
+  
+#graph-1
+  +bg('../img/today-bitcoin-euro.svg')
+#graph-2
+  +bg('../img/today-bitcoin-dollar.svg')
+#graph-3
+  +bg('../img/today-bitcoin-pound.svg')
+.mdl-card--border
+  display: flex
+  justify-content: center
